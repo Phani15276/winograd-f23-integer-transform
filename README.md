@@ -10,16 +10,16 @@ The project starts with 1D Winograd transform implementation and extends toward 
 ## Folder Structure
 
 ### src/
-Contains the main Verilog implementation files.
+Contains the Verilog files for normal 2D convolution and Winograd-based convolution comparison.
 
 ### src_1d/
-Contains 1D Winograd transform related Verilog modules.
+Contains Verilog modules related to the 1D Winograd transform implementation.
 
 ### tb/
-Contains testbench files for convolution comparison and verification.
+Contains testbench files used for simulation and verification.
 
-### tb_1d/
-Contains testbench files for 1D Winograd verification.
+### screenshots/
+Contains waveform screenshots and simulation results from ModelSim/Vivado.
 
 ---
 
@@ -30,6 +30,16 @@ Contains testbench files for 1D Winograd verification.
 - Input Transform
 - Output Transform
 - Verilog simulation using ModelSim
+
+---
+
+## 1D and 2D Implementation
+
+### 1D Winograd Transform
+The 1D implementation demonstrates the basic Winograd F(2,3) transform using integer arithmetic and Verilog simulation.
+
+### 2D Convolution Comparison
+The 2D implementation compares normal convolution with Winograd-based convolution in terms of computation cycles and efficiency.
 
 ---
 
@@ -49,6 +59,16 @@ The implementation avoids fractional arithmetic and uses integer inputs for simp
 ## Tools Used
 - Verilog HDL
 - ModelSim
+
+---
+
+## Simulation Results
+
+### 1D Winograd Transform
+![1D Waveform](screenshots/waveform_1d.png)
+
+### Normal Convolution vs Winograd Comparison
+![Comparison](screenshots/normal_vs_winograd.png)
 
 ---
 
