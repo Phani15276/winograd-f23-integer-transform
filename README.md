@@ -56,6 +56,14 @@ The implementation avoids fractional arithmetic and uses integer inputs for simp
 
 ---
 
+## Performance Analysis
+
+- Winograd convolution completed in fewer cycles compared to normal convolution.
+- Simulation results show improved computational efficiency using the Winograd approach.
+- The implementation uses integer arithmetic without fractional computation.
+
+---
+
 ## Tools Used
 - Verilog HDL
 - ModelSim
