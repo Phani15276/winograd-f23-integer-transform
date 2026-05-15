@@ -68,8 +68,9 @@ The implementation avoids fractional arithmetic and uses integer inputs for simp
 ---
 
 ## Tools Used
-- Verilog HDL
+- Verilog
 - ModelSim
+- Xilinx Vivado
 
 ---
 
