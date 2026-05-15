@@ -16,7 +16,10 @@ Contains the Verilog files for normal 2D convolution and Winograd-based convolut
 Contains Verilog modules related to the 1D Winograd transform implementation.
 
 ### tb/
-Contains testbench files used for simulation and verification.
+Contains testbench files used for 2D convolution comparison and verification.
+
+### tb_1d/
+Contains testbench files for 1D Winograd transform verification.
 
 ### screenshots/
 Contains waveform screenshots and simulation results from ModelSim/Vivado.
